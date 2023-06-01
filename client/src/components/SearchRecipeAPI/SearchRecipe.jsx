@@ -4,7 +4,7 @@ import axios from 'axios'
 
 const SearchRecipe = () => {
     const [searchedTerm, setSearchedTerm] = useState('')
-    const [defaultQuery] = useState('icecream')
+    const [defaultQuery] = useState('pasta')
     const [dataReceived,setDataReceived] = useState('')
     const [msg,setMsg] = useState(true)
 
