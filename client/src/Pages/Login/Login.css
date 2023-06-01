@@ -1,0 +1,17 @@
+.loginContainer{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25em;
+    border-radius: 25px;
+    color: #5f0a87; 
+    margin-bottom: 6em;
+}
+.login{
+    width: 8em;
+    margin: 1em;
+}
+.loginContainer span{
+    font-weight: bold;
+}

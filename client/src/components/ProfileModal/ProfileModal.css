@@ -1,0 +1,33 @@
+.profInfoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    color: #5f0a87;
+    border-radius: 25px;
+}
+.profInfoForm h3{
+    font-family: 'Poppins', sans-serif;
+}
+.profInfoForm>div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+.profInfoForm>div div{
+    width: 7em;
+}
+input[type='file']{
+    padding-top: 12px;
+}
+.profInputs{
+    width: 80%;
+}
+@media screen and (max-width:500px) {
+    .profInfoForm>div:nth-of-type(2){
+        min-width: 7em;
+    }
+}

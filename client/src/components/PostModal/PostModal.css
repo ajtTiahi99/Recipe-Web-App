@@ -1,0 +1,52 @@
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #5f0a87;
+    font-family: 'Poppins', sans-serif;
+}
+
+.NewRecipe{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size:1.3rem;
+    padding: 1em 2em 0 2em;
+}
+.infoInput{
+    width: 90%;
+    height: 2rem;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    background: rgba( 190, 188, 190, 0.5 );
+    box-shadow: 0 3px 8px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );   
+}
+.infoInput:hover{
+    box-shadow: none;
+}
+
+.filediv{
+    width: 10em;
+    padding: 10px;
+    display: block;
+    align-items: center;
+}
+.createBtn{
+    min-width: 20%;
+}
+@media screen and (max-width:1430px){
+    .filediv{
+        min-width: 6em;
+    }
+}

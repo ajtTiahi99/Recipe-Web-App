@@ -1,0 +1,124 @@
+.Navbar{
+    height: 38.4px;
+}
+
+.RecDetail{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    font-family: 'Poppins', sans-serif;
+}
+.inner-wrapper{
+    width: 80%;
+    height: 100%;
+    padding:2%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Heading{
+    width: 100%;
+    height: 26em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;    
+}
+.MainImg{
+    width: 100%;
+    height: 26em;
+    border-radius:25px;
+    object-fit: cover;
+}
+.title,.instructions>h1{
+    font-size: 1.5rem;
+}
+.MainRecipeInfo{
+    height: 26em;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.MainRecipeInfo>ul{
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+
+.instructions{
+    display: inline-block;
+    flex: 1;
+    width: 96%;
+    margin: 1% 0;
+    padding: 2%;
+    word-break: break-all;
+    white-space: pre-line;
+}
+.instructions>p{
+    font-size:1.3rem;
+}
+h1, .MainRecipeInfo>span{
+    line-height: 2;
+}
+.MainRecipe>span{
+    font-size: 1.2rem;
+}
+.ownerInfo{
+    width: 15em;
+    height: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-left: 1%;
+    color: white;
+}
+
+.ownerImg{
+    width:4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left:0;
+    cursor: pointer;
+}
+.ownerName{
+    margin-left: 2em;
+}
+.likes>span,.savedPost>span{
+    font-size: 1rem;
+    margin: 0.2rem;
+}
+.icon{
+    margin: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:850px) {
+    .Heading,.MainImg,.MainRecipeInfo{
+        height:20em;
+    }
+}
+@media screen and (max-width:700px) {
+    .Heading{
+        grid-template-columns: repeat(1,1fr);
+        height: 33em;
+    }
+    .MainImg,.MainRecipeInfo{
+        max-height: 15em;
+    }
+    .ownerInfo{
+        width:10em;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@600&family=Nunito+Sans:ital,wght@1,300&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    color:white;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+.btn:hover{
+    outline: 2px solid #5f0a87;
+    background: transparent;
+    color: #5f0a87;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.glassEffect{
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 25px;
+}
+.MainBody{
+    width: 95%;
+    height: 95%;
+    padding:0 1% 1px 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+    margin-bottom: 1.3em;
+}
+/* inputs */
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputField{
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid #5f0a87;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    width: 90%;
+    margin: 10px 0 5px 0;
+    display: flex;
+}
+
+textarea{
+    resize:vertical;
+    min-height: 3rem;
+}
+
+::file-selector-button {
+    display: none;
+}
+
+@media screen and(max-width:900px) {
+    .inputField{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .MainBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
