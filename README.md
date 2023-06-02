@@ -37,6 +37,13 @@ To Visit App:
 ## About The Project
 
   
-I started this project by using the `create-react-app` boilerplate. This is app is build with the purpose to connect various users just a social media app. Here only the authenticated users can share the recipes by creating a post, can like a post, save and delete a recipe post, edit profile contents. They can also search various recipes using search feature which uses Edamam API to filter recipes from thousands available in the database. For Storing the pictures of users I have used Firebase because MongoDB is not really suitable for image storage.
+I started this project by using the `create-react-app` boilerplate. This is app is build with the purpose to connect various users just a social media app. Here only the authenticated users can share the recipes by creating a post, can like a post, save and delete a recipe post, edit profile contents. They can also search various recipes using search feature which uses Edamam API to filter recipes from thousands available in the database. For Storing the pictures of users I have used Firebase because MongoDB is not really suitable for image storage. However, there is still a lot of scope for improvement in the project suh as adding other features like delete, share post, etc.
 
-The technologies implemented in this project are React, React-Router, JSX, CSS, MongoDB, Express, NodeJS and Firebase. 
+
+The technologies implemented in this project are React, React-Router, JSX, CSS, MongoDB, Express, NodeJS and Firebase and axios. 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mongodb,express,nodejs,react,firebase,css" />
+  </a>
+</p>
+
